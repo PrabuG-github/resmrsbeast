@@ -1,0 +1,19 @@
+const b= document.querySelector('button.button-no');
+b.addEventListener("click",moveHover)
+
+function moveHover()
+{
+    const i = Math.floor(Math.random()*500)+1
+    const j = Math.floor(Math.random()*500)+1
+
+    b.style.left = i+"px"
+    b.style.top=j+"px"
+
+
+
+}
+
+function yes()
+{
+    window.alert("Yeaee pannikutty!!! You sayed yes Thank U")
+}
